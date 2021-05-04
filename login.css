@@ -11,39 +11,44 @@ blanco: #ffffff
 rgb(255, 255, 255)
  */
 
-body{
-	background-image: url(img/login.jpg);
-    background-color: rgba(185,143,113,0.7);
+body {
+    background-image: url(img/login.jpg);
+    background-color: rgba(185, 143, 113, 0.7);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     background-size: cover;
 }
-@media(min-width: 250px){
-    body{
+
+@media(min-width: 250px) {
+    body {
         background-image: url(img/logAndroid.jpg);
     }
 }
-@media(min-width: 600px){
-    body{
+
+@media(min-width: 600px) {
+    body {
         background-image: url(img/logAndroid.jpg);
     }
 }
-@media(min-width: 1000px){
-    body{
+
+@media(min-width: 1000px) {
+    body {
         background-image: url(img/login.jpg);
     }
 }
-h1{
-	margin-top: 5vw;
-	text-align: center;
-	-webkit-text-stroke: 1.05px #b98f71;
-	color: #663300;
-	margin-bottom: 3vw;
-	font-size: 2.5em;
+
+h1 {
+    margin-top: 5vw;
+    text-align: center;
+    -webkit-text-stroke: 1.05px #b98f71;
+    color: #663300;
+    margin-bottom: 3vw;
+    font-size: 2.5em;
 }
-.formato{
-    background-color: rgba(185,143,113,0.7);
+
+.formato {
+    background-color: rgba(185, 143, 113, 0.7);
     border: #663300 solid 0.15vw;
     margin-top: 15vw;
     margin: 0 auto;
@@ -51,20 +56,22 @@ h1{
     padding: 2vw;
     text-align: center;
 }
-@media screen and (max-width: 500px){
-    .formato{
+
+@media screen and (max-width: 500px) {
+    .formato {
         width: 90%;
         margin-top: 0 center;
     }
 }
 
-p{
+p {
     color: #8b4513;
     font-weight: bolder;
     font-size: 2em;
     /*-webkit-text-stroke: 1px black; */
 }
-input{
+
+input {
     border: solid 0;
     border-radius: 3px;
     font-size: 1.25em;
@@ -72,7 +79,8 @@ input{
     width: 60%;
     margin-top: 1em;
 }
-.enviar{
+
+.enviar {
     margin-top: 1.35em;
     background-color: #663300;
     color: white;
@@ -81,7 +89,8 @@ input{
     border-radius: 3.75px;
     width: 20vw;
 }
-.enviar:hover{
+
+.enviar:hover {
     background-color: #b98f71;
     border: 0.03em solid #663300;
     border-radius: 3.75px;

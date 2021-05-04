@@ -18,7 +18,7 @@
 </head>
 <body>
 	<h1>SISTEMA GESTOR DE SERVICIO SOCIAL</h1>
-	<form class="formato" action="login-validar.php" method="post">
+	<form class="formato" method="POST" enctype="multipart/form-data" action="login-validar.php" method="POST">
 		<h2 style="color: #663300; font-size: 2.25em;">Iniciar Sesión</h2>
 		<!-- <p>Usuario</p> -->
 		<input id="user" name="user" type="text" placeholder="Usuario">
